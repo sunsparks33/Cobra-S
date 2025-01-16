@@ -383,3 +383,19 @@ footer .column > a:hover{
         grid-template-columns: 1fr 150px;
     }
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  
+    background: linear-gradient(transparent, hsl(347, 86%, 25%));
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent,hsl(347, 86%, 35%));
+  
+  
+  }
